@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('background/car.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.features {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url("background/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling for game section */
+.games {
+    padding: 40px;
+    background-color: #fff;
+    background-image: url('background/img2.jpg');
+    text-align: center;
+}
+
+/* Styling for individual game items */
+.game-item {
+    width: 30%; /* Each game takes up 30% of the available space */
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling for game images */
+.game-image {
+    width: 300px; /* Set fixed width */
+    height: 200px; /* Set fixed height */
+    object-fit: fill; /* Crops the image to fit within the dimensions */
+
+}
+
+/* Play button styling */
+.play-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.contact {
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
